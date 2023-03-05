@@ -5,7 +5,7 @@ import logo_footer from './images/logo_footer.jpg'
 import Mail from './images/Mail.png'
 import TG from './images/TG.png'
 import VK from './images/VK.png'
-
+import CalendarComponent from './CalendarComponent/CalendarComponent'
 import Task from './TaskComponent/Task'
 import Statuses from './TaskComponent/Statuses'
 
@@ -88,7 +88,7 @@ const chooseTask = (status) => {
         </div>
         </div>
         <div className="calendar">
-
+          <CalendarComponent tasks={tasks}/>
         </div>
       </main>
 

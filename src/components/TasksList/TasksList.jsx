@@ -93,7 +93,7 @@ const chooseTask = (status) => {
       </main>
 
     <footer>
-    <div className="logo_footer"><img src={'logo_footer'}></img></div>
+    <div className="logo_footer"><img src={logo_footer} className='logo_footer'></img></div>
 
     <div className="companyText_footer">
       <h2 className='companyName_footer'>Daily Shelf</h2>
